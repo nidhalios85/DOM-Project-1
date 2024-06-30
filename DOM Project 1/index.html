@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <div class="cart-items">
+            <!-- Sample Item 1 -->
+            <div class="cart-item" data-id="1">
+                <div class="item-details">
+                    <h2>Item 1</h2>
+                    <p>Price: 10.000 DT</p>
+                </div>
+                <div class="item-quantity">
+                    <button class="decrease-qty">-</button>
+                    <input type="text" value="1" class="quantity" readonly>
+                    <button class="increase-qty">+</button>
+                </div>
+                <div class="item-actions">
+                    <button class="like-item">❤</button>
+                    <button class="delete-item">Delete</button>
+                </div>
+            </div>
+            <!-- Sample Item 2 -->
+            <div class="cart-item" data-id="2">
+                <div class="item-details">
+                    <h2>Item 2</h2>
+                    <p>Price: 20.000 DT</p>
+                </div>
+                <div class="item-quantity">
+                    <button class="decrease-qty">-</button>
+                    <input type="text" value="1" class="quantity" readonly>
+                    <button class="increase-qty">+</button>
+                </div>
+                <div class="item-actions">
+                    <button class="like-item">❤</button>
+                    <button class="delete-item">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <h2>Total: 30.00 DT</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
